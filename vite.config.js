@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    extensions: [".js", ".jsx"], // ✅ Ensures .jsx files are correctly resolved
+    extensions: [".js", ".jsx"], // Ensures correct resolution
   },
-  base: "./", // ✅ Ensures correct paths for Vite
+  base: "./", // Ensures correct file paths
 });
